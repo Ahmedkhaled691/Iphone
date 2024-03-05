@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 0;
+    margin: auto;
+}
+.logo{
+    width: 40px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+ul li a:hover{
+    color: #EEC760;
+}
+.containt{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+}
+.containt .text{
+    width: 40%;
+    color: white;
+    margin-top: 90px;
+}
+.containt .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.containt .text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.containt .text a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.containt .text a:hover{
+    background-color: rgb(113, 113, 113);
+    color: white;
+}
+.containt .image{
+    width: 30%;
+}
+.containt .image img{
+    width: 180px;
+
+}
+
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 60px;
+    transition: .5s;
+    cursor: pointer;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}
